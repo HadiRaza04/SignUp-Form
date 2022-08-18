@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.head {
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    margin: auto;
+}
+p>span {
+    font-weight: bolder;
+}
+.container {
+    width: 650px;
+    height: 380px;
+    border-radius: 20px;
+    margin-left: 360px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(4, 185, 240, 0.25) 0px 54px 55px, rgba(4, 185, 240, 0.12) 0px -12px 30px, rgba(4, 185, 240, 0.12) 0px 4px 6px, rgba(4, 185, 240, 0.17) 0px 12px 13px, rgba(4, 185, 240, 0.09) 0px -3px 5px;
+}
+.sub-container1 {
+    width: 360px;
+    height: 380px;
+    background: rgb(255, 255, 255);
+    
+    border-radius: 20px 0px 0px 20px;
+}
+.sub-container2 {
+    width: 290px;
+    height: 380px;
+    background: linear-gradient(rgb(5, 236, 236), rgb(4, 63, 255));
+    opacity: 0.5;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+}
+.sub-container2>h2 {
+    padding-left: 60px;
+    padding-top: 150px;
+}
+.sub-container2>p {
+    padding-left: 65px;
+    padding-top: 20px;
+}
+.content {
+    /* background: yellow; */
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-top: 47px;
+}
+.content>h2 {
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 25px;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .3s;
+    padding: 8px; 
+}
+input[type=text]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.inputWithIcon input[type=text] {
+    padding-left: 40px;
+}
+.inputWithIcon {
+    position: relative;
+}
+.inputWithIcon i{
+    position: absolute;
+    left: 0;
+    top: 14px;
+    padding: 9px 8px;
+    color: #aaa;
+}
+.inputWithIcon input[type=text]:focus + i{
+  color: dodgerblue;
+}
+input[type=email] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 25px;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .3s;
+    padding: 8px; 
+}
+input[type=email]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.inputWithIcon1 input[type=email] {
+    padding-left: 40px;
+}
+.inputWithIcon1 {
+    position: relative;
+}
+.inputWithIcon1 i{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+}
+.inputWithIcon1 input[type=email]:focus + i{
+  color: dodgerblue;
+}
+input[type=password] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 25px;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .3s;
+    padding: 8px; 
+}
+input[type=password]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.inputWithIcon2 input[type=password] {
+    padding-left: 40px;
+}
+.inputWithIcon2 {
+    position: relative;
+}
+.inputWithIcon2 i{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+}
+.inputWithIcon2 input[type=password]:focus + i{
+  color: dodgerblue;
+}
+#btn {
+    display: block;
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(to right, rgb(5, 236, 236), rgb(90, 128, 253));
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 19px;
+    box-shadow: rgba(1, 102, 255, 0.35) 0px 5px 15px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+#btn:hover {
+    background: linear-gradient(to right, rgb(90, 128, 253), rgb(5, 236, 236));
+}
+#next {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(90, 128, 253)};
+#next>span{
+    display: block;
+    text-decoration: none;
+    color: rgb(5, 236, 236);
+}
