@@ -17,19 +17,19 @@
             <div class="content">
                 <h2>Hello, friend!</h2>
                 <div class="inputWithIcon">
-                    <input type="text" placeholder="Name">
+                    <input id="name" type="text" placeholder="Name">
                     <i class="fa fa-user fa-lg fa-fw" area-hidden="true"></i>
                 </div>
                 <div class="inputWithIcon1">
-                    <input type="email" placeholder="E-Mail">
+                    <input id="email" type="email" placeholder="E-Mail">
                     <i class="fa-solid fa-envelope-open" area-hidden="true"></i>
                 </div>
                 <div class="inputWithIcon2">
-                    <input type="password" placeholder="Password">
+                    <input id="password" type="password" placeholder="Password">
                     <i class="fa-solid fa-lock" area-hidden="true"></i>
                 </div>
-                <a href="#" id="btn"><span>Create Account</span></a>
-                <p id="next">Already have an account? <span><a href="#">Sign In</a></span></p>
+                <a href="#" id="btn" onclick="saveDetails()"><span>Create Account</span></a>
+                <p id="next">Already have an account? <span><a href="signIn.html">Sign In</a></span></p>
             </div>
         </div>
         <div class="sub-container2">
@@ -38,5 +38,6 @@
                 Thank You soo much to <br>visit our site</p>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
